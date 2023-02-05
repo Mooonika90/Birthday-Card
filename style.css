@@ -123,17 +123,19 @@ body {
 }
 
 .btn {
-	position: absolute;
-	margin: 1.2rem;
+	margin: 0.4rem;
 	font-family: 'Amatic SC', cursive;
 	border-radius: 1rem;
 	font-size: 1.4rem;
 	padding: 0.4rem;
 	cursor: pointer;
-	bottom: 0;
+	background: none;
 	right: 0;
+	bottom: 10%;
+	font-weight: bold;
 	border: 0;
-	text-transform: uppercase;
+	color: var(--black-color);
+	
 }
 @keyframes showCard {
 	50% {
@@ -145,7 +147,7 @@ body {
 }
 .gift {
 	position: absolute;
-	z-index: -100;
+	z-index: -1;
 	top: -70px;
 	font-size: 20px;
 	animation: giftDropDown 4s linear;
