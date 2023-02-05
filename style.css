@@ -131,7 +131,6 @@ body {
 	cursor: pointer;
 	background: none;
 	right: 0;
-	bottom: 10%;
 	font-weight: bold;
 	border: 0;
 	color: var(--black-color);
