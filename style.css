@@ -123,8 +123,8 @@ body {
 }
 
 .btn {
+	position: absolute;
 	margin: 0.4rem;
-	font-family: 'Amatic SC', cursive;
 	border-radius: 1rem;
 	font-size: 1.4rem;
 	padding: 0.4rem;
